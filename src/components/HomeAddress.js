@@ -6,13 +6,13 @@ class HomeAddress extends Component {
 		super(props);
 	}
   render() {
-    const {name, address} = this.props;
+    const {name, address, age} = this.props;
     return (
     	//const name = this.props.name;
     	//const address = this.props.address;
     	 //es6 destructuring
       <p>
-            {name} lives at {address}
+            {name}, age {age} lives at {address}
       </p>
     );
   }
